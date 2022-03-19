@@ -7,7 +7,7 @@ import java.util.Map;
 
         public static void main(String[] args) {
 
-            String str = new String("!adhanlf@%nlesngal&*gnksvks esfkefbmflbskgbskbsf@lnefnwel");
+            String str = "!adhanlf@%nlesngal&*gnksvks esfkefbmflbskgbskbsf@lnefnwel";
 
             char[] chars = str.toCharArray();
 
@@ -18,7 +18,7 @@ import java.util.Map;
                 else map.put(c,1);
             }
 
-            for(Map.Entry e: map.entrySet())
+            for(Map.Entry<Character,Integer> e: map.entrySet())
                 System.out.println(e.getKey()+" "+e.getValue());
 
         }
