@@ -1,11 +1,5 @@
 package jdbc;
 
-/**
- * java database connection for mysql
- * 2022Äê3ÔÂ20ÈÕ
- * author£ºsudochu
- */
-
 import java.sql.*;
 
 public class JDBCutils {
